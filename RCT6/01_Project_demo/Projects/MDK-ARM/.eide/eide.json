@@ -1,0 +1,347 @@
+{
+  "name": "std_103",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Startup",
+        "files": [
+          {
+            "path": "../../Drivers/CMSIS/Device/ST/STM32F10x/Source/arm/startup_stm32f10x_hd.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Drivers",
+        "files": [],
+        "folders": [
+          {
+            "name": "SYSTEM",
+            "files": [
+              {
+                "path": "../../Drivers/SYSTEM/usart/uart.c"
+              },
+              {
+                "path": "../../Drivers/SYSTEM/sys/sys.c"
+              },
+              {
+                "path": "../../Drivers/SYSTEM/delay/delay.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "STM32F10x_StdPeriph_Driver",
+            "files": [
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/misc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c"
+              },
+              {
+                "path": "../../Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "BSP",
+            "files": [
+              {
+                "path": "../../Drivers/BSP/LED/led.c"
+              },
+              {
+                "path": "../../Drivers/BSP/KEY/key.c"
+              },
+              {
+                "path": "../../Drivers/BSP/OLED_IIC/oled.c"
+              },
+              {
+                "path": "../../Drivers/BSP/TIMER/gtim.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "User",
+        "files": [
+          {
+            "path": "../../Users/main.c"
+          },
+          {
+            "path": "../../Users/stm32f10x_it.c"
+          },
+          {
+            "path": "../../Drivers/CMSIS/Device/ST/STM32F10x/Source/system_stm32f10x.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Config",
+        "files": [
+          {
+            "path": "../../Drivers/BSP/TIMER/tim_config.h"
+          },
+          {
+            "path": "../../Drivers/SYSTEM/usart/uart_config.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Readme",
+        "files": [],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": "STM32F103RC",
+  "packDir": ".pack/Keil/STM32F1xx_DFP.2.3.0",
+  "miscInfo": {
+    "uid": "44d7f378a1d96a0cf65e6f1674e6d93e"
+  },
+  "targets": {
+    "Template": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "useCustomScatterFile": false,
+        "scatterFilePath": "",
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0xc000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x40000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f1x",
+        "interface": "stlink",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "STLink": {
+          "bin": "",
+          "proType": "SWD",
+          "resetMode": "default",
+          "runAfterProgram": false,
+          "speed": 4000,
+          "address": "0x8000000",
+          "elFile": "None",
+          "optionBytes": ".eide/template.st.option.bytes.ini",
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f1x",
+          "interface": "stlink",
+          "baseAddr": "0x08000000"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".",
+          "../../Drivers/CMSIS/Device/ST/STM32F10x/Include",
+          "../../Drivers/STM32F10x_StdPeriph_Driver/inc",
+          "../../Drivers/CMSIS/Include",
+          "../../Drivers",
+          "../../Users",
+          "RTE/_Template"
+        ],
+        "libList": [],
+        "defineList": [
+          "USE_STDPERIPH_DRIVER",
+          "STM32F10X_HD"
+        ]
+      }
+    }
+  },
+  "version": "3.4"
+}
